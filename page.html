@@ -10,20 +10,21 @@
         padding: 0;
     }
 
-    section{
+    main{
     	width: 600px;
     	margin: 40px auto;
     	padding: 20px 50px;
-    	background: rgba(195, 191, 172, 0.498039);
+    	background-color: rgba(195, 191, 172, 0.498039);
     }
     
     h2 {
         text-align: center;
     }
 
-    section>p {
+    main>p {
         text-align: right;
         margin: auto;
+		margin-bottom: 10px;
     }
     
     .box {
@@ -32,6 +33,49 @@
         margin: 20px auto;
         overflow: hidden;
     }
+	.cgFont{
+		padding-right: 20px;
+	}
+	.cgFont i{
+		font-style: normal;
+		padding-right: 4px;
+		cursor: pointer;
+	}
+	.cgFont i:nth-child(1){
+		font-size: 1em;
+		padding-left: 4px;
+	}
+	.cgFont i:nth-child(2){
+		font-size: 1.2em;
+		padding-left: 4px;
+	}
+	.cgFont i:nth-child(3){
+		font-size: 1.4em;
+		padding-left: 4px;
+	}
+	.cgColor i{
+		display: inline-block;
+		width: 14px;
+		height: 14px;
+		vertical-align: sub;
+		border: 1px solid #999;
+		cursor: pointer;
+	}
+	.cgColor i:nth-child(1){
+		background: rgba(249,246,175,.5);
+	}
+	.cgColor i:nth-child(2){
+		background: rgba(157,219,244,.5);
+	}
+	.cgColor i:nth-child(3){
+		background: rgba(222,222,222,.5);
+	}
+	.cgColor i:nth-child(4){
+		background: rgba(195,191,172,.5);
+	}
+	.cgColor i:nth-child(5){
+		background: rgba(255,255,255,.5);
+	}
     .page {
 		line-height: 36px !important;
 		font: normal 16px "Microsoft YaHei", "微软雅黑", sans-serif;
@@ -86,19 +130,21 @@
 </head>
 
 <body>
-	<section>
+	<main>
 		<h2>白夜行片段</h2>
-    	<p>——此处仅作引用，版权归该文章作者所有</span>
+    	<p>——此处仅作引用，版权归该文章作者所有</p>
+		<span class="cgFont">字号:[<i>小</i><i>中</i><i>大</i>]</span>
+		<span class="cgColor">视力保护色: <i></i> <i></i> <i></i> <i></i> <i></i></span>
         <div class="box">
         	<div class="page">
         		<p>百度百科：太阳到达最高点的时候，它的影子便消失了。刑警韩东秀（韩石圭饰）为了证实自己对一起已有定论的杀人案的猜想，致使自己的儿子意外身亡，从此变得意志消沉起来。14年后，一桩杀人案似乎和当年这起案件有着某种联系，当韩东秀再一次开始关注起当年一名被害人的儿子有汉（高洙饰）时，意外认识正在帮助财团老板调查未婚妻柳美皓（孙艺珍饰）的私家侦探，从私家侦探那里得知这名叫柳皓美的女人正是当年被认为是畏罪自杀的凶手的女儿李佳。当年这两个韩东秀曾经有怀疑过的小孩子如今长大成人，而且又同样因为凶杀案出现在他的周围。在韩东秀的追查过程中，他发现了当年凶杀案以及近期凶杀案的真相，而真相背后，却是一对永远不能在光天化日之下见面的苦恋情侣。
 	            </p>
-	            <p><img src="1.jpg" alt="1"></p>
+	            <p><img src="img/1.jpg" alt="1"></p>
 	            <p>出了近铁布施站，沿着铁路径直向西。已经十月了，天气仍闷热难当，地面也很干燥。每当卡车疾驰而过，扬起的尘土极可能会让人又皱眉又揉眼睛。</p>
 	            <p>笹垣润三的脚步说不上轻快。他今天本不必出勤。很久没休假了，还以为今天可以悠游地看点书。为了今天，他特地留着松本清张的新书没看。</p>
 	            <p>柳美皓</p>
 	            <p>演员 孙艺珍</p>
-	            <p><img src="2.jpg" alt="2"></p>
+	            <p><img src="img/2.jpg" alt="2"></p>
 	            <p>从小被自己的妈妈卖给有汉的爸爸，为了保护有汉杀死了自己的亲生妈妈，后来被姑姑抚养，长大后和财阀在一起。由于幼年时期的悲惨命运，她只能将悲伤埋藏在心底，但拥有矛盾性格的她也在不断伤害着别人。</p>
 	            <p>公园出现在右边，大小足以容纳两场三垒棒球开打，丛林越野游戏、秋千、滑梯等常见的游乐设施一应俱全。这座公园是附近最大的一座，叫真澄公园。</p>
 	            <p>公园后面有一栋兴建中的七层建筑，乍看之下平淡无奇，但笹垣知道里面几乎空无一物。在调到大阪警察本部之前，他就待在管辖这一带的西布施分局。</p>
@@ -109,11 +155,11 @@
 	            <p>妇人站起身，把报纸放在椅子上。笹垣衔了根和平牌香烟，擦火柴点着，瞄了一下那份报纸，看到“厚生省公布市场海鲜汞含量检查结果”的标题，旁边以小字写着“大量食用鱼类亦不致达到该含量”。</p>
 	            <p>三月时，法院对熊本水俣病作出判决，与新泻水俣病、四日市哮喘病、痛痛病合称四大公害的审判，就此全数结案。结果，每一桩诉讼均是原告胜诉，这使得民众莫不对公害戒慎恐惧。尤其是日常食用的鱼类遭汞或PCB（多氯联苯）污染疑虑未消，使大众人心惶惶。</p>
 	            <p>乌贼不会有问题吧？笹垣看着报纸想。</p>
-	            <p><img src="3.jpg" alt="3"></p>
+	            <p><img src="img/3.jpg" alt="3"></p>
 	            <p>烤乌贼饼的两片铁板由铰链连在一起，夹住裹了面粉和蛋汁的乌贼，再利用铁板加热。烧烤乌贼的味道激起了食欲。</p>
-	            <p><img src="4.jpg" alt="4"></p>
+	            <p><img src="img/4.jpg" alt="4"></p>
 	            <p>充分加热后，老板娘打开铁板，又圆又扁的脆饼黏在其中一片铁板上。她涂上薄薄的酱汁，对折，再以咖啡色纸包起来，说声“好了”，把饼递给笹垣。</p>
-	            <p><img src="5.jpeg" alt="5"></p>
+	            <p><img src="img/5.jpeg" alt="5"></p>
 	            <p>笹垣看了看写着“烤乌贼饼四十元”的牌子，付了钱。老板娘亲切地说：“多谢。”然后拿起报纸，坐回椅子。</p>
 	            <p>笹垣正要离开，一个中年女子在店门口停下脚步，向老板娘打招呼。她手上提着购物篮，看样子是附近的家庭主妇。“那边好像很热闹，是不是出了什么事呀？”她指着大楼问。</p>
             </div>
@@ -123,12 +169,31 @@
             <span class="active">1</span>
             <a href="javascript:void(0)" class="next">下一页</a>
         </div>
-	</section>
-    	<script src='jquery-3.1.1.min.js'></script>
+	</main>
+    	<script src='js/jquery-3.1.1.min.js'></script>
         <script>
         var buttons = $('.buttons'),
             prevButton = $('.prev'),
-            nextButton = $('.next');
+            nextButton = $('.next'),
+			pages = $('.pages'),
+			main = $('main'),
+			cgFont = $('.cgFont').children('i'),
+			cgColor = $('.cgColor').children('i');
+		var nowFont = localStorage.getItem('fontSize');
+		$(main).find('p').css('fontSize',nowFont);
+		console.log(pages);
+		$(cgFont).click(function () {
+			var onFont = $(this).css('font-size');
+			$(main).find('p').css('fontSize',onFont);
+			localStorage.setItem('fontSize',onFont);
+			//	此处刷新是为了重新计算页面大小
+			location.reload()
+		});
+
+		$(cgColor).click(function () {
+			var onColor = $(this).css('background-color');
+			main.css('background',onColor)
+		});
         window.onload = function() {
             //设置分页
             var pages = $('.box'),
@@ -172,7 +237,7 @@
             }
             judgeIndex(nextButton, prevButton);
             var button = buttons.find('span'),
-                pageTop = $('section').offset().top,
+                pageTop = $('main').offset().top,
                 allPage = $('html,body');
             // 选择页码
             $(button).click(function() {
@@ -232,7 +297,7 @@
 
                 //切换文章
                 pages.css('height', singleHeight[nextNumber - 2]);
-                page.css('margin-top', -singleOffset[nextNumber - 2])
+                page.css('margin-top', -singleOffset[nextNumber - 2]);
 
                 //页面滚动到顶部
                 allPage.animate({
